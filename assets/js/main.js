@@ -892,7 +892,7 @@ function renderContactInfo(){
   var rows = [
     { icon:"icon-pin", labelAr:"الموقع", labelEn:"Location", value: t("contact.location"), href:null },
     { icon:"icon-phone", labelAr:"الجوال", labelEn:"Phone", value:"+966 59 513 9331", href:"tel:+966595139331" },
-    { icon:"icon-mail", labelAr:"البريد الإلكتروني", labelEn:"Email", value:"h.masa@hgtl.org", href:"mailto:h.masa@hgtl.org" },
+    { icon:"icon-mail", labelAr:"البريد الإلكتروني", labelEn:"Email", value:"info@hgtl.org", href:"mailto:info@hgtl.org" },
     { icon:"icon-globe", labelAr:"الموقع الإلكتروني", labelEn:"Website", value:"wwwhgtl.netlify.app", href:"https://wwwhgtl.netlify.app/" }
   ];
   el.innerHTML = rows.map(function(r){
@@ -1003,7 +1003,7 @@ function initContactForm(){
       data.get("message")
     ].join("\n");
 
-    var mailto = "mailto:h.masa@hgtl.org?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    var mailto = "mailto:info@hgtl.org?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     if (status){
       status.textContent = currentLang === "ar" ? "جارٍ فتح برنامج البريد الإلكتروني..." : "Opening your email client...";
       status.classList.remove("is-error");
