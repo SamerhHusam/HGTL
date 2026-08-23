@@ -893,7 +893,7 @@ function renderContactInfo(){
     { icon:"icon-pin", labelAr:"الموقع", labelEn:"Location", value: t("contact.location"), href:null },
     { icon:"icon-phone", labelAr:"الجوال", labelEn:"Phone", value:"+966 59 513 9331", href:"tel:+966595139331" },
     { icon:"icon-mail", labelAr:"البريد الإلكتروني", labelEn:"Email", value:"info@hgtl.org", href:"mailto:info@hgtl.org" },
-    { icon:"icon-globe", labelAr:"الموقع الإلكتروني", labelEn:"Website", value:"wwwhgtl.netlify.app", href:"https://wwwhgtl.netlify.app/" }
+    { icon:"icon-globe", labelAr:"الموقع الإلكتروني", labelEn:"Website", value:"www.hgtl.org", href:"https://www.hgtl.org/" }
   ];
   el.innerHTML = rows.map(function(r){
     var label = currentLang === "ar" ? r.labelAr : r.labelEn;
