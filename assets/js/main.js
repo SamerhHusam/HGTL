@@ -891,7 +891,7 @@ function renderContactInfo(){
   if (!el) return;
   var rows = [
     { icon:"icon-pin", labelAr:"الموقع", labelEn:"Location", value: t("contact.location"), href:null },
-    { icon:"icon-phone", labelAr:"الجوال", labelEn:"Phone", value:"+966 59 513 9331", href:"tel:+966595139331" },
+    { icon:"icon-phone", labelAr:"الجوال", labelEn:"Phone", value:"+966 56 599 9107", href:"tel:+966565999107" },
     { icon:"icon-mail", labelAr:"البريد الإلكتروني", labelEn:"Email", value:"info@hgtl.org", href:"mailto:info@hgtl.org" },
     { icon:"icon-globe", labelAr:"الموقع الإلكتروني", labelEn:"Website", value:"www.hgtl.org", href:"https://www.hgtl.org/" }
   ];
