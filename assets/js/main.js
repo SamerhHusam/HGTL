@@ -464,13 +464,15 @@ function applyStaticText(){
     if (val !== undefined) el.textContent = val;
   });
   if (!isSubpage()){
-    document.title = currentLang === "ar" ? "HGTL | حلول تقنية متكاملة للأعمال" : "HGTL | Integrated Technology Solutions";
-  }
-  var metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc){
-    metaDesc.setAttribute("content", currentLang === "ar"
-      ? "HGTL تقدم حلولاً تقنية متكاملة تشمل الأمن السيبراني والبرمجيات والبنية التحتية والحلول الذكية والخوادم والدعم الفني في المملكة العربية السعودية."
-      : "HGTL provides integrated technology solutions including cybersecurity, software, infrastructure, smart systems, servers, business solutions and technical support in Saudi Arabia.");
+    document.title = currentLang === "ar"
+      ? "High Grade Tech Line (HGTL) | حلول تقنية في جدة والسعودية"
+      : "High Grade Tech Line (HGTL) | Technology Solutions in Jeddah & Saudi Arabia";
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc){
+      metaDesc.setAttribute("content", currentLang === "ar"
+        ? "High Grade Tech Line (HGTL) شركة حلول تقنية في جدة والسعودية تقدم تصميم وتطوير المواقع، البرمجيات، الأمن السيبراني، الأجهزة، الخوادم والبنية التقنية والدعم الفني."
+        : "High Grade Tech Line (HGTL) is a technology company in Jeddah, Saudi Arabia offering web design & development, software, cybersecurity, hardware, servers, infrastructure, and technical support.");
+    }
   }
 }
 
