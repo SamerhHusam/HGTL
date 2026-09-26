@@ -23,11 +23,12 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-    :root{--bg:#020b1d;--card:rgba(255,255,255,.055);--border:rgba(255,255,255,.11);--text:#f5f8ff;--muted:#b7c3d8;--cyan:#58d6ff;--max:1180px}
+    :root{--bg:#020b1d;--card:rgba(255,255,255,.055);--border:rgba(255,255,255,.11);--text:#f5f8ff;--muted:#b7c3d8;--cyan:#58d6ff;--max:1180px;--announce-h:44px}
+    @media(max-width:640px){:root{--announce-h:132px}}
     *{box-sizing:border-box} html{scroll-behavior:smooth}
     body{margin:0;font-family:"IBM Plex Sans Arabic",Inter,Arial,sans-serif;background:radial-gradient(circle at 70% 5%,rgba(44,124,255,.18),transparent 28rem),linear-gradient(180deg,#020b1d,#030d20 45%,#051026 100%);color:var(--text);line-height:1.75}
     .shell{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
-    .topbar{position:sticky;top:0;z-index:30;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(2,11,29,.82);backdrop-filter:blur(18px)}
+    .topbar{position:sticky;top:var(--announce-h);margin-top:var(--announce-h);z-index:30;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(2,11,29,.82);backdrop-filter:blur(18px)}
     .topbar-in{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
     .brand img{width:90px;height:auto;display:block}
     .nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
@@ -61,6 +62,22 @@
     .footer{border-top:1px solid rgba(255,255,255,.08);padding:32px 0 42px;color:#aebbd0} .footer-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap} .footer a{color:#d8e4f5;text-decoration:none}
     @media(max-width:900px){.nav a:not(.btn){display:none}.grid{grid-template-columns:1fr 1fr}.links{grid-template-columns:1fr 1fr}}
     @media(max-width:620px){.shell{width:min(calc(100% - 28px),var(--max))}.brand img{width:76px}.grid,.links{grid-template-columns:1fr}.section{padding:68px 0}.hero{min-height:660px}}
+
+    /* Partnered Point (PP) announcement bar — same component/styles as the
+       main site's .announce-bar (assets/css/style.css), copied inline since
+       this standalone landing page doesn't load that stylesheet. */
+    .announce-bar{position:fixed;inset-inline:0;top:0;z-index:901;height:var(--announce-h);display:flex;align-items:center;overflow:hidden;isolation:isolate;background:linear-gradient(90deg,#020b1d 0%,#06152d 50%,#020b1d 100%);border-bottom:1px solid rgba(125,170,220,.14)}
+    .announce-bar::before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(60% 160% at 50% 0%,rgba(18,157,255,.18),transparent 70%);pointer-events:none}
+    .announce-bar::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,transparent 25%,rgba(111,216,255,.10) 48%,transparent 68%);background-size:220% 100%;animation:announceSweep 10s linear infinite;pointer-events:none}
+    @keyframes announceSweep{0%{background-position:220% 0}100%{background-position:-60% 0}}
+    .announce-bar .container{width:100%;display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;position:relative;z-index:1;padding-block:.5rem}
+    .announce-bar-message{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;min-width:0}
+    .announce-bar-pill{flex-shrink:0;font-size:.68rem;font-weight:700;color:#020b1d;background:linear-gradient(135deg,#6fd8ff,#129dff);padding:.2rem .65rem;border-radius:100px;white-space:nowrap}
+    .announce-bar-text{font-size:.84rem;font-weight:500;color:#a9b8ce;line-height:1.4}
+    .announce-bar-cta{display:inline-flex;align-items:center;gap:.4rem;flex-shrink:0;font-size:.8rem;font-weight:700;color:#020b1d;text-decoration:none;background:linear-gradient(135deg,#6fd8ff,#129dff);padding:.4rem .95rem;border-radius:100px;box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 6px 16px -8px rgba(18,157,255,.6);transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s cubic-bezier(.16,1,.3,1),background .2s cubic-bezier(.16,1,.3,1)}
+    .announce-bar-cta:hover{transform:translateY(-1px);background:linear-gradient(135deg,#28b2ff,#2ea0ff);box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 9px 20px -8px rgba(18,157,255,.7)}
+    @media(max-width:900px){.announce-bar .container{gap:.75rem}.announce-bar-text{font-size:.8rem}}
+    @media(max-width:640px){.announce-bar{height:auto;min-height:var(--announce-h)}.announce-bar .container{flex-direction:column;align-items:stretch;text-align:center;gap:.4rem;padding-block:.5rem}.announce-bar-message{justify-content:center}.announce-bar-text{font-size:.76rem}.announce-bar-cta{justify-content:center}}
   </style>
 
   <script type="application/ld+json">
@@ -96,6 +113,15 @@
   </script>
 </head>
 <body>
+  <div class="announce-bar" id="announceBar">
+    <div class="container">
+      <div class="announce-bar-message">
+        <span class="announce-bar-pill">مزايا PP</span>
+        <span class="announce-bar-text">كل تعامل مع HGTL له قيمة — اجمع نقاطك واستمتع بمزايا حصرية مع Partnered Point (PP).</span>
+      </div>
+      <a href="partnered-point.html" class="announce-bar-cta">اكتشف مزايا PP</a>
+    </div>
+  </div>
   <header class="topbar">
     <div class="shell topbar-in">
       <a class="brand" href="https://www.hgtl.org/"><img src="assets/images/logo.png" alt="HGTL — High Grade Tech Line"></a>
