@@ -8,6 +8,9 @@
 var CONTENT = {
   ar: {
     "nav.cta": "اطلب استشارة",
+    "announce.pill": "مزايا PP",
+    "announce.text": "كل تعامل مع HGTL له قيمة — اجمع نقاطك واستمتع بمزايا حصرية مع Partnered Point (PP).",
+    "announce.cta": "اكتشف مزايا PP",
     "hero.title1": "حلول تقنية متكاملة",
     "hero.title2": "لمستقبل أعمالك",
     "hero.lede": "اكتشف حلولاً تقنية متكاملة تساعد أعمالك على النمو بكفاءة وأمان، من البنية التحتية والأنظمة الذكية إلى البرمجيات والأمن السيبراني والدعم الفني.",
@@ -104,10 +107,34 @@ var CONTENT = {
     "web.overview.text": "تصميم وتطوير المواقع هو خدمة متكاملة لبناء حضور رقمي احترافي يعكس هوية علامتك التجارية. نساعدك على الوصول إلى عملائك بموقع سريع ومتجاوب يعمل بسلاسة على جميع الأجهزة. هذا الحل موجّه للشركات التي تريد موقعاً احترافياً يمثلها بالشكل الصحيح على الإنترنت.",
     "web.visual.caption": "مواقع تعكس احترافية علامتك التجارية.",
     "web.cta.title": "جاهز لإطلاق موقعك الاحترافي؟",
-    "web.cta.lede": "شاركنا احتياجاتك، وسيساعدك فريق HGTL في تصميم وتطوير الموقع المناسب لأعمالك."
+    "web.cta.lede": "شاركنا احتياجاتك، وسيساعدك فريق HGTL في تصميم وتطوير الموقع المناسب لأعمالك.",
+    "pp.breadcrumb.current": "Partnered Point (PP)",
+    "pp.hero.eyebrow": "Partnered Point – PP",
+    "pp.hero.title": "Partnered Point – PP",
+    "pp.hero.subtitle": "مزايا حصرية لعملائنا",
+    "pp.hero.desc": "كل تعامل مع HGTL له قيمة. اكسب نقاطًا مع كل خدمة تحصل عليها، واستبدلها بمجموعة من المزايا والخدمات الحصرية المصممة لعملائنا.",
+    "pp.hero.ctaPrimary": "ابدأ الاستفادة من مزايا PP",
+    "pp.hero.ctaSecondary": "تواصل معنا",
+    "pp.card.label": "HGTL PARTNERED POINT",
+    "pp.card.member": "بطاقة عضوية عميل HGTL",
+    "pp.how.eyebrow": "كيف يعمل",
+    "pp.how.title": "كيف يعمل Partnered Point؟",
+    "pp.how.lede": "كل خدمة تحصل عليها من HGTL تمنحك نقاطًا. كلما زاد تعاونك معنا، زادت نقاطك وازدادت المزايا التي يمكنك الاستفادة منها.",
+    "pp.benefits.eyebrow": "المزايا",
+    "pp.benefits.title": "مزايا Partnered Point",
+    "pp.benefits.lede": "أكثر من مجرد نقاط — قيمة مستمرة مع كل تعامل.",
+    "pp.value.text": "كل تعامل مع HGTL .. قيمة مستمرة لك.",
+    "pp.why.eyebrow": "لماذا PP",
+    "pp.why.title": "لماذا Partnered Point؟",
+    "pp.cta.title": "ابدأ بجمع نقاطك مع HGTL",
+    "pp.cta.lede": "كل خدمة اليوم يمكن أن تمنحك قيمة إضافية غدًا.",
+    "pp.cta.button": "تواصل معنا لمعرفة المزيد"
   },
   en: {
     "nav.cta": "Request Consultation",
+    "announce.pill": "PP Rewards",
+    "announce.text": "Every interaction with HGTL has value — collect points and enjoy exclusive benefits with Partnered Point (PP).",
+    "announce.cta": "Discover PP Benefits",
     "hero.title1": "Integrated Technology Solutions",
     "hero.title2": "for a Smarter Future",
     "hero.lede": "Empowering organizations with secure, integrated technology solutions — from infrastructure and intelligent systems to software, cybersecurity, and technical support.",
@@ -204,7 +231,28 @@ var CONTENT = {
     "web.overview.text": "Web Design & Development is a complete service for building a professional digital presence that reflects your brand identity. We help you reach your customers with a fast, responsive website that works smoothly across every device. It's built for businesses that want a professional website that represents them the right way online.",
     "web.visual.caption": "Websites that reflect your brand's professionalism.",
     "web.cta.title": "Ready to Launch Your Professional Website?",
-    "web.cta.lede": "Share your needs, and the HGTL team will help you design and build the right website for your business."
+    "web.cta.lede": "Share your needs, and the HGTL team will help you design and build the right website for your business.",
+    "pp.breadcrumb.current": "Partnered Point (PP)",
+    "pp.hero.eyebrow": "Partnered Point – PP",
+    "pp.hero.title": "Partnered Point – PP",
+    "pp.hero.subtitle": "Exclusive Benefits for Our Customers",
+    "pp.hero.desc": "Every interaction with HGTL has value. Earn points with every service and unlock exclusive rewards, services, and benefits designed for our customers.",
+    "pp.hero.ctaPrimary": "Start Enjoying PP Benefits",
+    "pp.hero.ctaSecondary": "Contact Us",
+    "pp.card.label": "HGTL PARTNERED POINT",
+    "pp.card.member": "HGTL Customer Membership Card",
+    "pp.how.eyebrow": "How It Works",
+    "pp.how.title": "How does Partnered Point work?",
+    "pp.how.lede": "Every eligible HGTL service helps you earn PP points. The more you work with us, the more points and benefits you can unlock.",
+    "pp.benefits.eyebrow": "Benefits",
+    "pp.benefits.title": "Partnered Point Benefits",
+    "pp.benefits.lede": "More than points — continuous value with every interaction.",
+    "pp.value.text": "Every interaction with HGTL creates continuous value for you.",
+    "pp.why.eyebrow": "Why PP",
+    "pp.why.title": "Why Partnered Point?",
+    "pp.cta.title": "Start Earning Your HGTL Points",
+    "pp.cta.lede": "Every service today can create additional value tomorrow.",
+    "pp.cta.button": "Contact Us to Learn More"
   }
 };
 
@@ -430,6 +478,43 @@ var COMMITMENTS = [
   { ar:"الالتزام بالمواعيد وتسليم المشاريع في الوقت المحدد", en:"Commitment to schedules and timely project delivery" }
 ];
 
+var PP_STEPS = [
+  { icon:"icon-briefcase", num:"01",
+    ar:{ t:"احصل على خدمات HGTL", d:"استفد من خدماتنا وحلولنا التقنية المختلفة." },
+    en:{ t:"Use HGTL Services", d:"Take advantage of our different technology services and solutions." } },
+  { icon:"icon-badge", num:"02",
+    ar:{ t:"اجمع نقاط PP", d:"تكسب نقاطًا بناءً على الخدمات والتعاملات المؤهلة." },
+    en:{ t:"Earn PP Points", d:"You earn points based on eligible services and transactions." } },
+  { icon:"icon-cart", num:"03",
+    ar:{ t:"استبدل نقاطك", d:"استخدم نقاطك للحصول على مزايا وخدمات حصرية." },
+    en:{ t:"Redeem Your Benefits", d:"Use your points to unlock exclusive benefits and services." } }
+];
+
+var PP_BENEFITS = [
+  { icon:"icon-bank",
+    ar:{ t:"خصومات خاصة", d:"احصل على عروض وخصومات حصرية على خدمات مختارة من HGTL." },
+    en:{ t:"Exclusive Discounts", d:"Get exclusive offers and discounts on selected HGTL services." } },
+  { icon:"icon-heart",
+    ar:{ t:"هدايا مميزة لعملائنا", d:"استفد من هدايا ومكافآت حصرية مخصصة لعملاء HGTL." },
+    en:{ t:"Customer Rewards", d:"Enjoy exclusive gifts and rewards designed for HGTL customers." } },
+  { icon:"icon-bulb",
+    ar:{ t:"استشارات تقنية", d:"استبدل نقاطك بخدمات استشارية تقنية تساعدك على اتخاذ قرارات أفضل." },
+    en:{ t:"Technical Consultation", d:"Redeem your points for technical consultation services that help you make better decisions." } },
+  { icon:"icon-headset",
+    ar:{ t:"دعم فني مميز", d:"استفد من مزايا إضافية في خدمات الدعم الفني حسب نقاطك ومستوى حسابك." },
+    en:{ t:"Premium Technical Support", d:"Get additional technical support benefits based on your points and account level." } },
+  { icon:"icon-layers",
+    ar:{ t:"خدمات إضافية", d:"استخدم نقاط PP للحصول على خدمات إضافية ومزايا حصرية." },
+    en:{ t:"Additional Services", d:"Use your PP points to unlock additional services and exclusive benefits." } }
+];
+
+var PP_WHY = [
+  { icon:"icon-badge", ar:"مكافأة ولاء عملائنا", en:"Rewarding customer loyalty" },
+  { icon:"icon-layers", ar:"قيمة إضافية مع كل خدمة", en:"More value from every service" },
+  { icon:"icon-bulb", ar:"مزايا تتطور مع استمرار التعاون", en:"Benefits that grow with your relationship" },
+  { icon:"icon-heart", ar:"تجربة شراكة طويلة المدى مع HGTL", en:"A long-term partnership experience with HGTL" }
+];
+
 var SERVICE_OPTIONS = [
   { ar:"الأمن السيبراني", en:"Cybersecurity" },
   { ar:"البرمجيات وإدارة الأعمال (ERP)", en:"Software & ERP" },
@@ -457,13 +542,24 @@ function localizeNum(n){
   return currentLang === "ar" ? s.replace(/[0-9]/g, function(d){ return ARABIC_DIGITS[+d]; }) : s;
 }
 
+/* The announcement bar's text reflows differently per language/viewport, so
+   its real height can't be a fixed constant — measure it and publish that
+   as --announce-h, which .site-header's top offset and .hero's padding-top
+   both read, keeping the fixed header (and the page below it) correctly
+   clear of the bar in every case. */
+function syncAnnounceBarHeight(){
+  var bar = document.getElementById("announceBar");
+  if (!bar) return;
+  document.documentElement.style.setProperty("--announce-h", bar.offsetHeight + "px");
+}
+
 function applyStaticText(){
   document.querySelectorAll("[data-key]").forEach(function(el){
     var key = el.getAttribute("data-key");
     var val = CONTENT[currentLang][key];
     if (val !== undefined) el.textContent = val;
   });
-  if (!isSubpage()){
+  if (!isSubpage() && !isRootStandalone()){
     document.title = currentLang === "ar"
       ? "High Grade Tech Line (HGTL) | حلول تقنية في جدة والسعودية"
       : "High Grade Tech Line (HGTL) | Technology Solutions in Jeddah & Saudi Arabia";
@@ -502,9 +598,11 @@ function setLang(lang){
   renderIndustries();
   renderBrands();
   renderCommitments();
+  renderPartneredPoint();
   renderContactInfo();
   renderServiceOptions();
   renderFooterLists();
+  syncAnnounceBarHeight();
 }
 
 /* ==========================================================================
@@ -515,8 +613,18 @@ function setLang(lang){
    links back into the homepage need a "../" prefix while links to a
    sibling solution page (solutionHref) don't need any prefix at all. */
 var SUBPAGE_CLASSES = ["page-hardware", "page-cyber", "page-software", "page-web"];
+/* Pages that live at the site root (siblings of index.html, not inside
+   /solutions/) but still need to link back into the homepage's own
+   sections — e.g. partnered-point.html linking to "#contact". */
+var ROOT_STANDALONE_CLASSES = ["page-pp"];
 function isSubpage(){ return SUBPAGE_CLASSES.some(function(c){ return document.body.classList.contains(c); }); }
-function pageHref(href){ return (href.charAt(0) === "#" && isSubpage()) ? "../index.html" + href : href; }
+function isRootStandalone(){ return ROOT_STANDALONE_CLASSES.some(function(c){ return document.body.classList.contains(c); }); }
+function pageHref(href){
+  if (href.charAt(0) !== "#") return href;
+  if (isSubpage()) return "../index.html" + href;
+  if (isRootStandalone()) return "index.html" + href;
+  return href;
+}
 function solutionHref(filename){ return isSubpage() ? filename : "solutions/" + filename; }
 function currentPageSolutionKey(){
   for (var i = 0; i < SUBPAGE_CLASSES.length; i++){
@@ -888,6 +996,49 @@ function renderCommitments(){
   }).join("");
 }
 
+function renderPartneredPoint(){
+  var stepsEl = document.getElementById("ppStepsGrid");
+  if (stepsEl){
+    stepsEl.innerHTML = PP_STEPS.map(function(s){
+      var c = s[currentLang];
+      return (
+        '<article class="sol-card size-s">' +
+          '<span class="sol-card-tag">' + localizeNum(s.num) + "</span>" +
+          '<div class="sol-icon">' + iconSvg(s.icon) + "</div>" +
+          "<h3>" + c.t + "</h3>" +
+          '<p class="sol-desc">' + c.d + "</p>" +
+        "</article>"
+      );
+    }).join("");
+  }
+
+  var benefitsEl = document.getElementById("ppBenefitsGrid");
+  if (benefitsEl){
+    benefitsEl.innerHTML = PP_BENEFITS.map(function(b){
+      var c = b[currentLang];
+      return (
+        '<article class="sol-card size-s">' +
+          '<div class="sol-icon">' + iconSvg(b.icon) + "</div>" +
+          "<h3>" + c.t + "</h3>" +
+          '<p class="sol-desc">' + c.d + "</p>" +
+        "</article>"
+      );
+    }).join("");
+  }
+
+  var whyEl = document.getElementById("ppWhyGrid");
+  if (whyEl){
+    whyEl.innerHTML = PP_WHY.map(function(w){
+      return (
+        '<div class="pp-why-item">' +
+          '<div class="sol-icon">' + iconSvg(w.icon) + "</div>" +
+          "<p>" + tt(w) + "</p>" +
+        "</div>"
+      );
+    }).join("");
+  }
+}
+
 function renderContactInfo(){
   var el = document.getElementById("contactInfo");
   if (!el) return;
@@ -938,6 +1089,12 @@ function initHeaderScroll(){
   function update(){ header.classList.toggle("is-scrolled", window.scrollY > 24); }
   update();
   window.addEventListener("scroll", update, { passive:true });
+}
+
+function initAnnouncementBar(){
+  if (!document.getElementById("announceBar")) return;
+  window.addEventListener("resize", syncAnnounceBarHeight);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncAnnounceBarHeight);
 }
 
 function initDrawer(){
@@ -1022,6 +1179,7 @@ function initContactForm(){
 document.addEventListener("DOMContentLoaded", function(){
   setLang(currentLang);
   initHeaderScroll();
+  initAnnouncementBar();
   initDrawer();
   initLangSwitch();
   initReveal();
