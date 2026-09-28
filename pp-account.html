@@ -1,0 +1,13 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>حساب Partnered Point | HGTL</title><meta name="robots" content="noindex">
+<link rel="icon" href="assets/images/logo.png"><link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head><body class="page-pp portal-page"><header class="portal-header"><a href="index.html"><img src="assets/images/logo.png" alt="HGTL" width="100"></a><a class="btn btn-outline" href="partnered-point.html">عن البرنامج</a></header>
+<main class="portal-main"><section class="portal-shell"><div class="portal-heading"><span class="eyebrow">Partnered Point – PP</span><h1>حساب نقاط الولاء</h1><p>كل 10 ريالات = نقطة واحدة. سجّل بجوالك لمشاهدة عضويتك ونقاطك.</p></div>
+<div id="ppMessage" class="pp-message" hidden></div>
+<form id="ppLogin" class="portal-card"><label>الاسم الكامل <input id="ppName" autocomplete="name" placeholder="يُطلب عند التسجيل لأول مرة"></label><label>رقم الجوال <input id="ppPhone" type="tel" dir="ltr" autocomplete="tel" placeholder="05xxxxxxxx" required></label><button class="btn btn-primary" type="submit">إرسال رمز التحقق</button><small>سيتم إنشاء رقم عضوية تلقائيًا عند أول تسجيل.</small></form>
+<form id="ppOtp" class="portal-card" hidden><label>رمز التحقق <input id="ppCode" inputmode="numeric" autocomplete="one-time-code" maxlength="6" required></label><button class="btn btn-primary" type="submit">دخول</button></form>
+<section id="ppDashboard" hidden><div class="member-card"><div><small>مرحبًا</small><h2 id="memberName"></h2><p>رقم العضوية: <strong id="memberNumber"></strong></p><p id="memberPhone" dir="ltr"></p></div><div class="points-balance"><span id="memberPoints">0</span><small>نقطة</small></div></div><div class="portal-card table-card"><div class="card-title"><h2>سجل النقاط</h2><button id="ppLogout" class="text-button">تسجيل الخروج</button></div><div class="table-scroll"><table><thead><tr><th>التاريخ</th><th>العملية</th><th>المبلغ</th><th>النقاط</th></tr></thead><tbody id="memberTransactions"></tbody></table></div></div></section>
+</section></main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="assets/js/pp-config.js"></script><script src="assets/js/pp-common.js"></script><script src="assets/js/pp-account.js"></script></body></html>
